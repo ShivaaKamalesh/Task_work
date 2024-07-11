@@ -1,0 +1,23 @@
+nav{
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 35px;
+    text-align: center;
+    
+}
+li{
+    display: inline;
+    color: gray;
+    cursor: pointer;
+}
+ul{
+    display: inline;
+    padding-left: 60%;
+}
+h1{
+    display: inline;
+}
+li:hover{
+    color: white;
+}

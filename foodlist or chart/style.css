@@ -1,0 +1,95 @@
+nav{
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 35px;
+    text-align: center;
+    
+}
+li{
+    display: inline;
+    color: gray;
+    cursor: pointer;
+}
+ul{
+    display: inline;
+    padding-left: 60%;
+}
+h1{
+    display: inline;
+}
+li:hover{
+    color: white;
+}
+.searchbar{
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+}
+input{
+    width: 60%;
+    padding: 20px;
+}
+.box img{
+    width: 220px;
+    height: 220px;
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+    
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.products{
+    text-align: center;
+    padding: 10px;
+}
+.box1 img{
+    width: 220px;
+    height: 220px;
+}
+.box1{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+}
+.box1:hover{
+    background-color: black;
+    color: white;
+}
+.product1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.box2 img{
+    width: 220px;
+    height: 220px;
+}
+.box2{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+}
+.box2:hover{
+    background-color: black;
+    color: white;
+}
+.product2{
+    text-align: center;
+}
+.aboutFood {
+    text-align:center;
+    
+    margin-top: 10px;
+    padding: 10px;
+}
