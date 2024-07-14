@@ -1,0 +1,101 @@
+*{
+    text-decoration: none;
+    
+}
+.navbar{
+    background: rgb(130,106, 251);
+    font-family: "Poppins", sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background: url("images/background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home .text-one{
+    font-size: 25px;
+    color: #0E2431;
+  }
+  .home .text-two{
+    color: #0E2431;
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+  .home .text-three{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: #4070f4;
+  }
+  .home .text-four{
+    font-size: 25px;
+    margin: 5px 0;
+    color: #0E2431;
+  }
+  .home .button{
+    margin: 28px 0;
+  }
+  .home .button button{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #4070f4;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+  }
+  .home .button button:hover{
+    border-color: #4070f4;
+    background-color: #fff;
+    color: #4070f4;
+  }
+  
